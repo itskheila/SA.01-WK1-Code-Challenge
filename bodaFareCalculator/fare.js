@@ -3,7 +3,7 @@ console.log("Challenge 2: Boda Boda Ride Fare Estimator")
 const fareInput = prompt("Unafika wapi Mkubwa? Kilometer ngapi?:");
 const distance= Number (fareInput);
 
-if (isNaN(distance)){
+if (isNaN(distance)|| distance <= 0){
     console.log("Not an appropriate Distance")
 } else{
     const baseFare= 50;
