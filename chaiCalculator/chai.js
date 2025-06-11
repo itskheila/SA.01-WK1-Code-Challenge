@@ -1,3 +1,5 @@
+console.log("Challenge 1: Chai Bora Ingredient Calculator") 
+
 const input = prompt("Karibu! How many cups of Chai Bora would you like to make?");
 const Cups = Number(input);
 

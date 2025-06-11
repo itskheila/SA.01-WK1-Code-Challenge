@@ -19,6 +19,7 @@ if (isNaN(distance)){
 }
 
 
+
 function calculateBodaFare(distance){
     return  baseFare + (distance * perKm);
     
